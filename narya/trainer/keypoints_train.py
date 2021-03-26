@@ -8,7 +8,7 @@ import segmentation_models as sm
 import keras
 import os
 
-from narya.models.keras_models import KeypointDetectorModel
+from narya.Models.keras_models import KeypointDetectorModel
 from narya.datasets.keypoints_dataset import KeyPointDatasetBuilder
 
 parser = argparse.ArgumentParser(description="Training")
